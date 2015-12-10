@@ -19,7 +19,7 @@ class SettingsViewController: UIViewController {
         
         var tipPercentages = [0.18, 0.2, 0.22]
         
-        var selectedDefaultTip = tipPercentages[segTipSettings.selectedSegmentIndex]
+        let selectedDefaultTip = tipPercentages[segTipSettings.selectedSegmentIndex]
         
         // Saved the new default tip percentage
         let defaults = NSUserDefaults.standardUserDefaults()

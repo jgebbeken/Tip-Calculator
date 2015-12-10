@@ -58,13 +58,10 @@ class ViewController: UIViewController {
         switch(dblSegTipDefault){
         case(0.18):
             self.tipControl.selectedSegmentIndex = 0
-            print("loaded Selected .18")
         case(0.2):
             self.tipControl.selectedSegmentIndex = 1
-            print("loaded Selected .2")
         case(0.22):
             self.tipControl.selectedSegmentIndex = 2
-            print("loaded Selected .22")
         default:
             break
         }

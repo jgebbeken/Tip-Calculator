@@ -11,10 +11,10 @@
 		EE5B2D561C16DFA000AB6FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2D551C16DFA000AB6FC0 /* AppDelegate.swift */; };
 		EE5B2D581C16DFA000AB6FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2D571C16DFA000AB6FC0 /* ViewController.swift */; };
 		EE5B2D5B1C16DFA000AB6FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5B2D591C16DFA000AB6FC0 /* Main.storyboard */; };
-		EE5B2D5D1C16DFA000AB6FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5B2D5C1C16DFA000AB6FC0 /* Assets.xcassets */; };
 		EE5B2D601C16DFA000AB6FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5B2D5E1C16DFA000AB6FC0 /* LaunchScreen.storyboard */; };
 		EE5B2D6B1C16DFA000AB6FC0 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2D6A1C16DFA000AB6FC0 /* tipsTests.swift */; };
 		EE5B2D761C16DFA000AB6FC0 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2D751C16DFA000AB6FC0 /* tipsUITests.swift */; };
+		EEE6FD351C19657400B7CD20 /* Swift.gitignore.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEE6FD341C19657400B7CD20 /* Swift.gitignore.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		EE5B2D551C16DFA000AB6FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE5B2D571C16DFA000AB6FC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE5B2D5A1C16DFA000AB6FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE5B2D5C1C16DFA000AB6FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE5B2D5F1C16DFA000AB6FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE5B2D611C16DFA000AB6FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5B2D661C16DFA000AB6FC0 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		EE5B2D711C16DFA000AB6FC0 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5B2D751C16DFA000AB6FC0 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		EE5B2D771C16DFA000AB6FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE6FD341C19657400B7CD20 /* Swift.gitignore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swift.gitignore.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 				EE5B2D551C16DFA000AB6FC0 /* AppDelegate.swift */,
 				EE0C70D91C179372003783D9 /* SettingsViewController.swift */,
 				EE5B2D571C16DFA000AB6FC0 /* ViewController.swift */,
+				EEE6FD341C19657400B7CD20 /* Swift.gitignore.txt */,
 				EE5B2D591C16DFA000AB6FC0 /* Main.storyboard */,
-				EE5B2D5C1C16DFA000AB6FC0 /* Assets.xcassets */,
 				EE5B2D5E1C16DFA000AB6FC0 /* LaunchScreen.storyboard */,
 				EE5B2D611C16DFA000AB6FC0 /* Info.plist */,
 			);
@@ -232,8 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE6FD351C19657400B7CD20 /* Swift.gitignore.txt in Resources */,
 				EE5B2D601C16DFA000AB6FC0 /* LaunchScreen.storyboard in Resources */,
-				EE5B2D5D1C16DFA000AB6FC0 /* Assets.xcassets in Resources */,
 				EE5B2D5B1C16DFA000AB6FC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
