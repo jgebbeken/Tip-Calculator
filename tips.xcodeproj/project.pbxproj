@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0C70DA1C179372003783D9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0C70D91C179372003783D9 /* SettingsViewController.swift */; };
 		EE5B2D561C16DFA000AB6FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2D551C16DFA000AB6FC0 /* AppDelegate.swift */; };
 		EE5B2D581C16DFA000AB6FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2D571C16DFA000AB6FC0 /* ViewController.swift */; };
 		EE5B2D5B1C16DFA000AB6FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5B2D591C16DFA000AB6FC0 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE0C70D91C179372003783D9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		EE5B2D521C16DFA000AB6FC0 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5B2D551C16DFA000AB6FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE5B2D571C16DFA000AB6FC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				EE5B2D551C16DFA000AB6FC0 /* AppDelegate.swift */,
+				EE0C70D91C179372003783D9 /* SettingsViewController.swift */,
 				EE5B2D571C16DFA000AB6FC0 /* ViewController.swift */,
 				EE5B2D591C16DFA000AB6FC0 /* Main.storyboard */,
 				EE5B2D5C1C16DFA000AB6FC0 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				EE5B2D581C16DFA000AB6FC0 /* ViewController.swift in Sources */,
 				EE5B2D561C16DFA000AB6FC0 /* AppDelegate.swift in Sources */,
+				EE0C70DA1C179372003783D9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = josh.gebbeken.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = josh.gebbeken.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +488,7 @@
 				EE5B2D7C1C16DFA000AB6FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE5B2D7D1C16DFA000AB6FC0 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				EE5B2D7F1C16DFA000AB6FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE5B2D801C16DFA000AB6FC0 /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				EE5B2D821C16DFA000AB6FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
