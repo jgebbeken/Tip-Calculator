@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user:
+Here's a walkthrough of implemented user stories:
 
 ![alt tag](https://cloud.githubusercontent.com/assets/14221032/11711196/e8bc4a4e-9ee1-11e5-94c0-5c56a0114f27.gif)
 
