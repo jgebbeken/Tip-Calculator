@@ -33,6 +33,8 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Tip Calculator Settings"
 
         // Do any additional setup after loading the view.
         let defaults = NSUserDefaults.standardUserDefaults()
@@ -65,10 +67,15 @@ class SettingsViewController: UIViewController {
         
     }
 
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
+    
     
 
     /*

@@ -22,6 +22,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tipControl: UISegmentedControl!
     
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,8 +38,6 @@ class ViewController: UIViewController {
         totalLabel.text = "$0.00"
         
         
-        
-        
         // Set default selected tip from NSUserDefaults
         let defaults = NSUserDefaults.standardUserDefaults()
         let dblSegTipDefault = defaults.doubleForKey("defaultPercentage")
@@ -46,7 +47,7 @@ class ViewController: UIViewController {
         
         
     }
-    
+ 
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
@@ -73,8 +74,7 @@ class ViewController: UIViewController {
         
     }
     
-    
-    
+        
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -106,6 +106,8 @@ class ViewController: UIViewController {
         
         view.endEditing(true)
     }
+    
+
     
     
 

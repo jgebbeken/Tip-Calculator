@@ -94,7 +94,8 @@
                     <navigationItem key="navigationItem" id="nSC-km-m3I">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="2x3-b7-EIw">
                             <connections>
-                                <segue destination="IQB-W9-m43" kind="push" id="dEt-oj-ciI"/>
+                                <action selector="animateViewController:" destination="BYZ-38-t0r" id="JTa-Ff-dhm"/>
+                                <segue destination="IQB-W9-m43" kind="custom" id="g42-I8-gAe"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -153,14 +154,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="kXc-W8-v13"/>
+                    <navigationItem key="navigationItem" id="kXc-W8-v13">
+                        <barButtonItem key="rightBarButtonItem" title="Back" id="dm0-6l-zZf">
+                            <connections>
+                                <action selector="unWindBack:" destination="IQB-W9-m43" id="bFy-vc-QRY"/>
+                                <segue destination="e0R-qr-3kH" kind="unwind" unwindAction="unWindBack:" id="rX4-lM-Ue0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="segTipSettings" destination="UY8-hd-2LY" id="Hhu-17-aFD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7GW-DS-tbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="e0R-qr-3kH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1146" y="425"/>
+            <point key="canvasLocation" x="1196" y="425"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FNb-bN-xjj">
