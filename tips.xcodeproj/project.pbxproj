@@ -16,6 +16,10 @@
 		EE5B2D761C16DFA000AB6FC0 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2D751C16DFA000AB6FC0 /* tipsUITests.swift */; };
 		EEE6FD371C1967C600B7CD20 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EEE6FD361C1967C600B7CD20 /* .gitignore */; };
 		EEE6FD391C196F6300B7CD20 /* README.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = EEE6FD381C196F6300B7CD20 /* README.rtfd */; };
+		EEE6FD411C3263DE00B7CD20 /* FadeInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6FD401C3263DE00B7CD20 /* FadeInAnimator.swift */; };
+		EEE6FD431C3264C700B7CD20 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6FD421C3264C700B7CD20 /* NavigationControllerDelegate.swift */; };
+		EEE6FD471C3271B200B7CD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE6FD461C3271B200B7CD20 /* Assets.xcassets */; };
+		EEE6FD4B1C3276D500B7CD20 /* tipCalculator.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE6FD4A1C3276D500B7CD20 /* tipCalculator.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		EE5B2D771C16DFA000AB6FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEE6FD361C1967C600B7CD20 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		EEE6FD381C196F6300B7CD20 /* README.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = README.rtfd; sourceTree = "<group>"; };
+		EEE6FD401C3263DE00B7CD20 /* FadeInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInAnimator.swift; sourceTree = "<group>"; };
+		EEE6FD421C3264C700B7CD20 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		EEE6FD461C3271B200B7CD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE6FD4A1C3276D500B7CD20 /* tipCalculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipCalculator.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				EE5B2D591C16DFA000AB6FC0 /* Main.storyboard */,
 				EE5B2D5E1C16DFA000AB6FC0 /* LaunchScreen.storyboard */,
 				EE5B2D611C16DFA000AB6FC0 /* Info.plist */,
+				EEE6FD401C3263DE00B7CD20 /* FadeInAnimator.swift */,
+				EEE6FD421C3264C700B7CD20 /* NavigationControllerDelegate.swift */,
+				EEE6FD4A1C3276D500B7CD20 /* tipCalculator.png */,
+				EEE6FD461C3271B200B7CD20 /* Assets.xcassets */,
 			);
 			path = tips;
 			sourceTree = "<group>";
@@ -238,6 +250,8 @@
 				EE5B2D601C16DFA000AB6FC0 /* LaunchScreen.storyboard in Resources */,
 				EEE6FD371C1967C600B7CD20 /* .gitignore in Resources */,
 				EE5B2D5B1C16DFA000AB6FC0 /* Main.storyboard in Resources */,
+				EEE6FD4B1C3276D500B7CD20 /* tipCalculator.png in Resources */,
+				EEE6FD471C3271B200B7CD20 /* Assets.xcassets in Resources */,
 				EEE6FD391C196F6300B7CD20 /* README.rtfd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE6FD431C3264C700B7CD20 /* NavigationControllerDelegate.swift in Sources */,
 				EE5B2D581C16DFA000AB6FC0 /* ViewController.swift in Sources */,
+				EEE6FD411C3263DE00B7CD20 /* FadeInAnimator.swift in Sources */,
 				EE5B2D561C16DFA000AB6FC0 /* AppDelegate.swift in Sources */,
 				EE0C70DA1C179372003783D9 /* SettingsViewController.swift in Sources */,
 			);

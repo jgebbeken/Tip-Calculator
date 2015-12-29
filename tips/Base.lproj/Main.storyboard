@@ -95,7 +95,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="2x3-b7-EIw">
                             <connections>
                                 <action selector="animateViewController:" destination="BYZ-38-t0r" id="JTa-Ff-dhm"/>
-                                <segue destination="IQB-W9-m43" kind="custom" id="g42-I8-gAe"/>
+                                <segue destination="IQB-W9-m43" kind="push" id="UNm-2W-2cb"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -133,6 +133,7 @@
                                     <segment title="20%"/>
                                     <segment title="22%"/>
                                 </segments>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="setDefaultTip:" destination="IQB-W9-m43" eventType="valueChanged" id="teC-Aq-jpt"/>
                                 </connections>
@@ -141,27 +142,36 @@
                                 <rect key="frame" x="82" y="68" width="156" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saves the default tip when loading the application." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yio-Qy-Qlf">
                                 <rect key="frame" x="20" y="152" width="280" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" id="syg-c1-aiI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <navigationItem title="Title" id="t7U-tZ-6Tv">
+                                        <barButtonItem key="rightBarButtonItem" title="Back" id="q6c-NR-omC">
+                                            <connections>
+                                                <action selector="unwindToViewController:" destination="IQB-W9-m43" id="xiT-c3-mDB"/>
+                                                <segue destination="e0R-qr-3kH" kind="unwind" unwindAction="unwindToViewController:" id="qL0-6n-T74"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="kXc-W8-v13">
-                        <barButtonItem key="rightBarButtonItem" title="Back" id="dm0-6l-zZf">
-                            <connections>
-                                <action selector="unWindBack:" destination="IQB-W9-m43" id="bFy-vc-QRY"/>
-                                <segue destination="e0R-qr-3kH" kind="unwind" unwindAction="unWindBack:" id="rX4-lM-Ue0"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="kXc-W8-v13"/>
                     <connections>
                         <outlet property="segTipSettings" destination="UY8-hd-2LY" id="Hhu-17-aFD"/>
                     </connections>
@@ -182,10 +192,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
+                        <outlet property="delegate" destination="1gi-dz-tyh" id="nTN-8N-S54"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dlz-fQ-JMp"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Veb-wr-rQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="1gi-dz-tyh" customClass="NavigationControllerDelegate" customModule="tips" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="218" y="425"/>
         </scene>

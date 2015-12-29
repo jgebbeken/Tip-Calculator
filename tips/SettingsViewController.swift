@@ -34,7 +34,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Tip Calculator Settings"
+        self.title = "Settings"
 
         // Do any additional setup after loading the view.
         let defaults = NSUserDefaults.standardUserDefaults()
@@ -65,6 +65,12 @@ class SettingsViewController: UIViewController {
         
 
         
+    }
+    
+    
+    // Exit Segue parameter
+    
+    @IBAction func unwindToViewController(sender: UIStoryboardSegue) {
     }
 
     

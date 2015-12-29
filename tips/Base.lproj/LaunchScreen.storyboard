@@ -16,7 +16,32 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIJ-LU-iiB">
+                                <rect key="frame" x="425" y="528" width="155" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="155" id="fum-bm-Xif"/>
+                                    <constraint firstAttribute="height" constant="52" id="heP-8c-jDS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tipCalculator.png" translatesAutoresizingMaskIntoConstraints="NO" id="Saf-3m-xOs">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="NvE-oF-dJd"/>
+                                    <constraint firstAttribute="width" constant="250" id="OQo-09-m2h"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="SIJ-LU-iiB" secondAttribute="trailing" constant="20" id="3fA-ly-1jr"/>
+                            <constraint firstItem="Saf-3m-xOs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3oS-GN-cF5"/>
+                            <constraint firstItem="Saf-3m-xOs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bgf-9h-owu"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="SIJ-LU-iiB" secondAttribute="bottom" constant="20" id="tqU-Sl-urF"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +49,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tipCalculator.png" width="1024" height="1024"/>
+    </resources>
 </document>

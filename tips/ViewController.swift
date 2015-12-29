@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipControl: UISegmentedControl!
     
     
+    @IBOutlet weak var btnSettings: UIButton!
 
     
     override func viewDidLoad() {
@@ -41,6 +42,10 @@ class ViewController: UIViewController {
         // Set default selected tip from NSUserDefaults
         let defaults = NSUserDefaults.standardUserDefaults()
         let dblSegTipDefault = defaults.doubleForKey("defaultPercentage")
+        
+        // Make the bill field first responder
+        self.billField.becomeFirstResponder()
+        
         
         print(dblSegTipDefault)
         
@@ -100,6 +105,7 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", total)
         
     }
+    
     
     
     @IBAction func onTap(sender: AnyObject) {
