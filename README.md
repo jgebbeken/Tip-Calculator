@@ -24,6 +24,8 @@ The following **additional** features are implemented:
 - [x] Loading splash screen that says loading with tip calculator logo instead of user seeing a white screen on loading.
 - [x] The animation transitions between view controllers uses a custom animation and navigation delegate classes.
 
+
+---
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
@@ -33,6 +35,9 @@ Updated view:
 
 ![alt tag](https://cloud.githubusercontent.com/assets/14221032/12031838/9ea658e0-adce-11e5-9ca0-5fe94c146fa0.gif)
 
+
+
+---
 
 Old view:
 
