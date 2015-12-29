@@ -28,6 +28,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+
+Updated view:
+
+![alt tag](https://cloud.githubusercontent.com/assets/14221032/12031838/9ea658e0-adce-11e5-9ca0-5fe94c146fa0.gif)
+
+
+Old view:
+
 ![alt tag](https://cloud.githubusercontent.com/assets/14221032/11711196/e8bc4a4e-9ee1-11e5-94c0-5c56a0114f27.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
@@ -35,6 +43,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+Any issues I had was learning how to save things using NSUserDefaults and custom animations. I was trying to do my own segue class, but loading the view controllers multiple times would prevent the user from clicking on the button again to the next view controller. With this custom animation class, I don't have to worry about any custom segue nor creating an unwind one.
 
 ## License
 
